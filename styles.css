@@ -3,5 +3,23 @@
 table {
     width: 50%;
     text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    table-layout: auto;
+    margin-top: 10px;
+}
 
+body {
+    background-color: #F3DE8A
+}
+
+#top-bar {
+    text-align: center;
+    background-color: #97A7B3;
+    top: 0;
+    position: sticky;
+    width: 100%;
+    left: 0;
+    margin: 0px;
+    padding: 10px 0;
 }
