@@ -1,16 +1,33 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
 
 table {
-    width: 50%;
+    width: 100%;
     text-align: center;
-    border: 1px solid black;
-    padding: 10px;
     table-layout: auto;
     margin-top: 10px;
+    border-radius: 10px;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+}
+
+th {
+    border: none;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
+td {
+    border: none;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: #cae7b9;
+    height: 40px;
 }
 
 body {
-    background-color: #F3DE8A
+    background-color: #F4F4F6;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #top-bar {
@@ -22,4 +39,17 @@ body {
     left: 0;
     margin: 0px;
     padding: 10px 0;
+    border-radius: 0 0 10px 10px;
 }
+
+tr:first-child th{
+    background-color: #eb9486;
+}
+
+tr:last-child td{
+    border-bottom: 0px;
+}
+td:last-child {
+    border-right: 0px;
+}
+
